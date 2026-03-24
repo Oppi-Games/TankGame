@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://brbd70stsmk7b"]
+
+[ext_resource type="PackedScene" uid="uid://b4j201cdsbyv2" path="res://assets/models/testModels/unnamed_mesh1.gltf" id="1_h7ink"]
+
+[node name="AuxScene" unique_id=2039073188 instance=ExtResource("1_h7ink")]

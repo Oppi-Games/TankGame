@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://ty6urjupmss"]
+
+[ext_resource type="Script" uid="uid://75w2hdu4ikan" path="res://scenes/testScene/test_scene.gd" id="1_2io4b"]
+[ext_resource type="Texture2D" uid="uid://cbucyrpieuov1" path="res://assets/testSprite/testSprite.png" id="2_82wbh"]
+
+[node name="TestScene" type="Node3D" unique_id=248393271]
+script = ExtResource("1_2io4b")
+image = ExtResource("2_82wbh")
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=1609964839]
+transform = Transform3D(0.9396926, -0.088521324, 0.33036608, 0, 0.9659258, 0.25881904, -0.34202012, -0.24321035, 0.90767336, 3, 3, 8)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="." unique_id=865264038]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 13.343816, -1.8201737)
+light_energy = 100.0
+light_volumetric_fog_energy = 2.0
+light_size = 10.0
+spot_range = 13.0
+spot_angle = 70.3125
